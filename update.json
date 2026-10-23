@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packageName": "tv.lion",
+  "versionName": "0.5.3",
+  "versionCode": 8,
+  "minSdk": 26,
+  "apk": {
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.5.3/LionTV-0.5.3-universal.apk",
+    "size": 14507980,
+    "sha256": "f7a185afb9fb01ea3902df407d3b5b68a63993af792b9e738ae641c4ac9861bf"
+  },
+  "notes": "LionTV 0.5.3\n\n- 设置新增当前版本信息与“检查更新”。\n- 应用重新启动时自动检查版本，有新版本可选择下载更新或稍后处理。\n- 新增下载进度、取消与失败重试，下载完成后校验大小、SHA-256、包名、版本和签名。\n- 支持安装权限引导与系统安装器确认更新。\n- 版本末位限定为0–9，0.5.9的下一个版本为0.6.0。\n\n兼容Android 8.0及以上，同一个通用APK支持32位/64位系统。安装与更新仍需电视系统允许安装第三方应用。"
+}
