@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "packageName": "tv.lion",
-  "versionName": "0.5.3",
-  "versionCode": 8,
+  "versionName": "0.5.4",
+  "versionCode": 9,
   "minSdk": 26,
   "apk": {
-    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.5.3/LionTV-0.5.3-universal.apk",
-    "size": 14507980,
-    "sha256": "f7a185afb9fb01ea3902df407d3b5b68a63993af792b9e738ae641c4ac9861bf"
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.5.4/LionTV-0.5.4-universal.apk",
+    "size": 15752239,
+    "sha256": "51aa99fef517cc1b0d867fe8f79daf880bcfe11b13904b7f575aaa49516307d2"
   },
-  "notes": "LionTV 0.5.3\n\n- 设置新增当前版本信息与“检查更新”。\n- 应用重新启动时自动检查版本，有新版本可选择下载更新或稍后处理。\n- 新增下载进度、取消与失败重试，下载完成后校验大小、SHA-256、包名、版本和签名。\n- 支持安装权限引导与系统安装器确认更新。\n- 版本末位限定为0–9，0.5.9的下一个版本为0.6.0。\n\n兼容Android 8.0及以上，同一个通用APK支持32位/64位系统。安装与更新仍需电视系统允许安装第三方应用。"
+  "notes": "LionTV 0.5.4\n\n- 直播源分批加载，先展示可用频道，后台继续补齐；并发读取子源，保留缓存、滚动位置和焦点。\n- 最近观看和观看记录展示观看时间与节目名称，支持源提供的XMLTV节目单；缺少数据时显示“暂无节目信息”。\n- 修复切换分类后台标变灰，以及播放页频道分类经过焦点后残留背景的问题。\n- 更新应用图标和电视横幅，优化退出、设置、默认清晰度及播放浮层样式。\n- 检查更新、下载进度、重试和安装引导在同一更新弹窗内完成。\n- 设置中检查更新行右侧显示当前版本；适配720p、1080p和4K显示。\n\n兼容Android 8.0及以上，32位/64位通用APK。沿用原签名，覆盖升级保留应用数据；安装需电视系统允许并由用户确认。节目单覆盖及直播源速度取决于所用源和网络。"
 }
