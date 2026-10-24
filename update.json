@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "packageName": "tv.lion",
-  "versionName": "0.6.0",
-  "versionCode": 15,
+  "versionName": "0.6.1",
+  "versionCode": 16,
   "minSdk": 26,
   "apk": {
-    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.0/LionTV-0.6.0-universal.apk",
-    "size": 16097270,
-    "sha256": "eb8808efa4eab4102dd65877820fb064a9a0dfd1fce52f653f47fffb92831368",
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.1/LionTV-0.6.1-universal.apk",
+    "size": 17284687,
+    "sha256": "8f09125392d0efc9734104150e3f6a56a2625f794390b1a8d5da915b708e5a2e",
     "mirrors": [
-      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.0/LionTV-0.6.0-universal.apk"
+      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.1/LionTV-0.6.1-universal.apk"
     ]
   },
-  "notes": "LionTV 0.6.0\n\n- 新增本地错误日志：尽量保存未处理异常、设备与版本信息、脱敏后的最近操作；下次启动提示处理，设置中可查看、删除或主动生成诊断日志。\n- 新增手机扫码导出：电视临时提供局域网下载页面，无需公网服务器或第三方上报平台。手机先下载ZIP，再打开收件人为liontv_support@163.com的邮件草稿，手动添加附件并发送。\n- 区分待导出、已提供下载、用户确认已发送，避免把扫码或下载误认为邮件已送达；返回、进入后台或超时自动关闭临时下载链接。\n- 修复多仓子仓列表滚动后出现大面积空白、选项不绘制和焦点边框被切割的问题，保持聚焦项完整可见；隐藏换源弹窗背后的重复操作提示。\n\n沿用原签名，Android 8.0及以上32位/64位通用。手机与电视须在可互访的同一局域网，邮件发送需要用户自行完成。Android 9主要记录Java层异常，原生崩溃、系统杀进程或断电不保证留有完整日志。"
+  "notes": "LionTV 0.6.1\n\n- 新增影视首页、分类筛选和连续加载、搜索、详情、选集、收藏、观看历史及续播。\n- 接入单仓点播配置的 JSON/XML、Java Spider 和 JS Spider 接口，新增动漫城；影视源与直播源独立选择。\n- 影视播放器支持前后集、快进快退、实际清晰度/字幕轨道、倍速、线路和播放设置；长剧集按需创建卡片。\n- 修复 Android 9 保存 DNS 时清理 HTTPS 连接引发的闪退。\n- 加强本地 Java/Native/ANR 诊断和跨进程操作线索，诊断包保留原始异常证据；简化为“生成诊断日志 / 无视”，扫码页点击“我已上传”直接结束。\n- 移除 itv、guovin 内置源，保留旧配置和自定义源迁移。\n\n沿用原签名，Android 8.0及以上32位/64位通用，不替换电视桌面。部分点播站点受上游可用性、插件兼容或鉴权限制，支持切换站点；动漫城部分站点测试时返回空分类，次元城插件地址返回HTTP 401。"
 }
