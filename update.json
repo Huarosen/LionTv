@@ -1,13 +1,16 @@
 {
   "schemaVersion": 1,
   "packageName": "tv.lion",
-  "versionName": "0.5.8",
-  "versionCode": 13,
+  "versionName": "0.5.9",
+  "versionCode": 14,
   "minSdk": 26,
   "apk": {
-    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.5.8/LionTV-0.5.8-universal.apk",
-    "size": 15948606,
-    "sha256": "9e9575b4bf00f35f8781ec06c29c0df7cbf82a947b94e58fd2fce0f3e3ad8eda"
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.5.9/LionTV-0.5.9-universal.apk",
+    "size": 16062359,
+    "sha256": "37ac3b6c48d3353e102321a487989d3d82914bcc7435bd184340a1ca5140bb53",
+    "mirrors": [
+      "https://gitee.com/huarosen/lion-tv/releases/download/v0.5.9/LionTV-0.5.9-universal.apk"
+    ]
   },
-  "notes": "LionTV 0.5.8\n\n- 设置弹窗打开时不默认聚焦选项；首页设置向下按布局依次进入查看全部、最近观看和切换源。\n- 观看记录新增删除模式：菜单键进入，OK确认删除当前卡片，返回或再次按菜单键退出；更新红色确认样式和底部操作提示。\n- 播放失败改为独立线路弹窗，支持切换或重试，返回键关闭弹窗；移除播放设置内重复的失败提示。\n- 最近观看及观看记录的长文字聚焦后循环滚动，失焦恢复省略显示。\n\nAndroid 8.0及以上，32位/64位通用，沿用原签名，覆盖安装保留应用数据。构建、lint及模拟器交互和覆盖安装验证通过，未在用户电视验证。安装需电视系统允许并由用户确认。"
+  "notes": "LionTV 0.5.9\n\n- 设置新增DNS配置：自动获取、腾讯、阿里、360和114预设，支持自定义首选/备用DNS、遥控器数字键盘、解析测试与恢复默认；保存后记住选择，仅作用于应用网络。\n- 新增游魂多仓主/备、游魂直播、咪咕、itv与guovin六个内置源；换源界面按直播、单仓点播、多仓点播分类，支持逐级选择子仓并记住选择。\n- 电视页仅提取点播配置中的直播部分，影视点播播放仍待后续开放；源返回认证、空清单或上游错误时显示实际原因。\n- 修复观看记录页固定两行导致大面积留白的问题；利用剩余屏幕空间展示更多行，上下连续浏览全部记录，底部操作提示保持可见。\n- 新增Gitee中国内地更新和下载入口，连接失败时自动尝试GitHub备用。\n- 两个入口共用同一安装包、版本号和签名，支持跨源续传；服务器不支持续传时安全重新下载。\n- 兼容Gitee官方清单与附件跳转，保留安装包大小、摘要、包名、版本和签名校验。\n\nAndroid 8.0及以上，32位/64位通用，沿用原签名。旧版需先通过原更新入口或手动覆盖安装本版，之后才可使用双源更新。安装需系统允许并由用户确认。"
 }
