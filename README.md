@@ -2,9 +2,9 @@
 
 LionTV 电视端安装包与在线更新发布仓库。
 
-**当前稳定版本：0.5.5** · Android 8.0 及以上 · 32位/64位通用 APK
+**当前稳定版本：0.5.6** · Android 8.0 及以上 · 32位/64位通用 APK
 
-[下载 LionTV 0.5.5](https://github.com/Huarosen/LionTv/releases/download/v0.5.5/LionTV-0.5.5-universal.apk) · [最新版本](https://github.com/Huarosen/LionTv/releases/latest) · [更新日志](CHANGELOG.md)
+[下载 LionTV 0.5.6](https://github.com/Huarosen/LionTv/releases/download/v0.5.6/LionTV-0.5.6-universal.apk) · [最新版本](https://github.com/Huarosen/LionTv/releases/latest) · [更新日志](CHANGELOG.md)
 
 ## 安装与更新
 
