@@ -2,9 +2,9 @@
 
 LionTV 电视端安装包与在线更新发布仓库。
 
-**当前稳定版本：0.6.0** · Android 8.0 及以上 · 32位/64位通用 APK
+**当前稳定版本：0.6.1** · Android 8.0 及以上 · 32位/64位通用 APK
 
-[下载 LionTV 0.6.0](https://github.com/Huarosen/LionTv/releases/download/v0.6.0/LionTV-0.6.0-universal.apk) · [中国内地下载](https://gitee.com/huarosen/lion-tv/releases/download/v0.6.0/LionTV-0.6.0-universal.apk) · [最新版本](https://github.com/Huarosen/LionTv/releases/latest) · [更新日志](CHANGELOG.md)
+[下载 LionTV 0.6.1](https://github.com/Huarosen/LionTv/releases/download/v0.6.1/LionTV-0.6.1-universal.apk) · [中国内地下载](https://gitee.com/huarosen/lion-tv/releases/download/v0.6.1/LionTV-0.6.1-universal.apk) · [最新版本](https://github.com/Huarosen/LionTv/releases/latest) · [更新日志](CHANGELOG.md)
 
 ## 安装与更新
 
@@ -23,4 +23,8 @@ LionTV 电视端安装包与在线更新发布仓库。
 
 ## 本地错误反馈
 
-设置 → 错误日志与反馈，可用同一局域网的手机扫码下载日志ZIP。打开邮件草稿后，需手动添加附件并发送至liontv_support@163.com；下载不代表邮件已送达。临时链接在返回、应用进入后台或超时后关闭。
+遇到异常后可生成诊断日志，手机与电视在同一局域网内扫码下载ZIP，再手动添加为邮件附件发送至liontv_support@163.com。点击“我已上传”关闭本次反馈。日志不自动上传，不接入外部上报平台。
+
+## 影视点播
+
+支持单仓点播配置、站点选择、分类筛选、搜索、选集、收藏和续播。站点可用性由上游提供，部分插件或鉴权接口可能暂不可用，可切换其他站点。
