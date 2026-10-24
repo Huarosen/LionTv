@@ -1,1 +1,1 @@
-2dc811d9978ff0d60bdb077ba9075a8e2380e93b03529bea9c0ca64a97baa33c  LionTV-0.5.5-universal.apk
+e4ad0a3d15a0abba0f1c4bf50ae1ac42fa0d80fd4bb324b3cee416fa5c122b04  LionTV-0.5.6-universal.apk
