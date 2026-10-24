@@ -2,9 +2,9 @@
 
 LionTV 电视端安装包与在线更新发布仓库。
 
-**当前稳定版本：0.5.9** · Android 8.0 及以上 · 32位/64位通用 APK
+**当前稳定版本：0.6.0** · Android 8.0 及以上 · 32位/64位通用 APK
 
-[下载 LionTV 0.5.9](https://github.com/Huarosen/LionTv/releases/download/v0.5.9/LionTV-0.5.9-universal.apk) · [中国内地下载](https://gitee.com/huarosen/lion-tv/releases/download/v0.5.9/LionTV-0.5.9-universal.apk) · [最新版本](https://github.com/Huarosen/LionTv/releases/latest) · [更新日志](CHANGELOG.md)
+[下载 LionTV 0.6.0](https://github.com/Huarosen/LionTv/releases/download/v0.6.0/LionTV-0.6.0-universal.apk) · [中国内地下载](https://gitee.com/huarosen/lion-tv/releases/download/v0.6.0/LionTV-0.6.0-universal.apk) · [最新版本](https://github.com/Huarosen/LionTv/releases/latest) · [更新日志](CHANGELOG.md)
 
 ## 安装与更新
 
@@ -20,3 +20,7 @@ LionTV 电视端安装包与在线更新发布仓库。
 - [发布规则](RELEASE_POLICY.md)：版本、标签、附件和索引规则。
 
 本仓库不存放源码、签名密钥或账号凭据。仅保留正式发布版本；不上传测试包或补传早期历史版本 APK。
+
+## 本地错误反馈
+
+设置 → 错误日志与反馈，可用同一局域网的手机扫码下载日志ZIP。打开邮件草稿后，需手动添加附件并发送至liontv_support@163.com；下载不代表邮件已送达。临时链接在返回、应用进入后台或超时后关闭。
