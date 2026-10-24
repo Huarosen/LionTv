@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "packageName": "tv.lion",
-  "versionName": "0.5.7",
-  "versionCode": 12,
+  "versionName": "0.5.8",
+  "versionCode": 13,
   "minSdk": 26,
   "apk": {
-    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.5.7/LionTV-0.5.7-universal.apk",
-    "size": 15946506,
-    "sha256": "219991526d349905fc50359c2634874c6cc8f158b0beb2e09dfa8e5dde26d78a"
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.5.8/LionTV-0.5.8-universal.apk",
+    "size": 15948606,
+    "sha256": "9e9575b4bf00f35f8781ec06c29c0df7cbf82a947b94e58fd2fce0f3e3ad8eda"
   },
-  "notes": "LionTV 0.5.7\n\n- 修复0.5.6仅显示少量央视频道、其他分类丢失的问题；恢复完整目录，正常数字地址保留源内绑定，明确错配才纠正。\n- 修复切换频道分类时顶部Tab短暂出现焦点外环。\n- 更新器增加应用内加密DNS与系统DNS回退、官方备用清单入口和有限次数重试，不修改电视系统DNS。\n- 下载中断后保留进度并续传，继续校验大小、摘要、包名、版本和签名。\n- 长更新说明适量加宽，正文内部滚动，操作按钮保持可见。\n\nAndroid 8.0及以上，32位/64位通用，沿用原签名。DNS不能保证GitHub始终可达；旧版若持续下载失败，请手动下载本版覆盖安装一次，无需卸载。直播可用性仍受所用源影响。"
+  "notes": "LionTV 0.5.8\n\n- 设置弹窗打开时不默认聚焦选项；首页设置向下按布局依次进入查看全部、最近观看和切换源。\n- 观看记录新增删除模式：菜单键进入，OK确认删除当前卡片，返回或再次按菜单键退出；更新红色确认样式和底部操作提示。\n- 播放失败改为独立线路弹窗，支持切换或重试，返回键关闭弹窗；移除播放设置内重复的失败提示。\n- 最近观看及观看记录的长文字聚焦后循环滚动，失焦恢复省略显示。\n\nAndroid 8.0及以上，32位/64位通用，沿用原签名，覆盖安装保留应用数据。构建、lint及模拟器交互和覆盖安装验证通过，未在用户电视验证。安装需电视系统允许并由用户确认。"
 }
