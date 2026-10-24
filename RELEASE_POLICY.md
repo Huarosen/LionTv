@@ -1,7 +1,7 @@
 # LionTV 包体发布规则
 
 1. 此仓库公开提供正式安装包和升级信息，不存放应用源码或内部仓库地址。
-2. 版本号格式 `major.minor.patch`，末位只能是0–9：`0.5.9 → 0.6.0`。每次发布必须递增 Android `versionCode`；0.5.3 为8，0.5.4 为9，0.5.5 为10，0.5.6 为11，0.5.7 为12，0.5.8 为13。
+2. 版本号格式 `major.minor.patch`，末位只能是0–9：`0.5.9 → 0.6.0`。每次发布必须递增 Android `versionCode`；0.5.3 为8，0.5.4 为9，0.5.5 为10，0.5.6 为11，0.5.7 为12，0.5.8 为13，0.5.9 为14。
 3. 稳定版本标签为 `v<版本号>`，例如 `v0.5.3`；标题 `LionTV 0.5.3`。稳定版本不得标记为预发布，最新稳定版本设为 Latest。
 4. 每个 Release 附件仅包含该版本的 `LionTV-<版本号>-universal.apk`、`update.json`、`SHA256SUMS.txt`。APK 不提交到 Git 历史，不上传未发布的测试包。每次仅上传当次正式版本，不补传早期历史包。
 5. APK 必须使用与已有安装相同的签名，支持Android API26及以上。校验应用ID为 `tv.lion`、版本、签名和构建/lint检查。签名密钥、密码或GitHub令牌不得提交。
@@ -13,6 +13,10 @@
 
 ## update.json 格式
 
-`schemaVersion`(1)、`packageName`(`tv.lion`)、`versionName`、`versionCode`、`minSdk`、`notes`，以及 `apk.url`、`apk.size`（字节）、`apk.sha256`（64位小写十六进制）。
+`schemaVersion`(1)、`packageName`(`tv.lion`)、`versionName`、`versionCode`、`minSdk`、`notes`，以及 `apk.url`、`apk.size`（字节）、`apk.sha256`（64位小写十六进制）和可选 `apk.mirrors`（同一APK的备用地址）。
 
 应用通过公开的 `https://raw.githubusercontent.com/Huarosen/LionTv/main/update.json` 检查更新，无需登录或内置GitHub访问令牌。
+
+## 中国内地镜像
+
+Gitee仓库 https://gitee.com/huarosen/lion-tv 与GitHub发布相同APK、版本和签名。0.5.9起优先读取Gitee清单，失败回退GitHub；先在两边上传并匿名校验附件，再启用双源清单。
