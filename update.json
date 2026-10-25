@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "packageName": "tv.lion",
-  "versionName": "0.6.1",
-  "versionCode": 16,
+  "versionName": "0.6.2",
+  "versionCode": 17,
   "minSdk": 26,
   "apk": {
-    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.1/LionTV-0.6.1-universal.apk",
-    "size": 17284687,
-    "sha256": "8f09125392d0efc9734104150e3f6a56a2625f794390b1a8d5da915b708e5a2e",
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.2/LionTV-0.6.2-universal.apk",
+    "size": 40023270,
+    "sha256": "0a38700a416b6fffde0d017087316c57b2ecf13d8c415a8682f0e83253d75ac5",
     "mirrors": [
-      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.1/LionTV-0.6.1-universal.apk"
+      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.2/LionTV-0.6.2-universal.apk"
     ]
   },
-  "notes": "LionTV 0.6.1\n\n- 新增影视首页、分类筛选和连续加载、搜索、详情、选集、收藏、观看历史及续播。\n- 接入单仓点播配置的 JSON/XML、Java Spider 和 JS Spider 接口，新增动漫城；影视源与直播源独立选择。\n- 影视播放器支持前后集、快进快退、实际清晰度/字幕轨道、倍速、线路和播放设置；长剧集按需创建卡片。\n- 修复 Android 9 保存 DNS 时清理 HTTPS 连接引发的闪退。\n- 加强本地 Java/Native/ANR 诊断和跨进程操作线索，诊断包保留原始异常证据；简化为“生成诊断日志 / 无视”，扫码页点击“我已上传”直接结束。\n- 移除 itv、guovin 内置源，保留旧配置和自定义源迁移。\n\n沿用原签名，Android 8.0及以上32位/64位通用，不替换电视桌面。部分点播站点受上游可用性、插件兼容或鉴权限制，支持切换站点；动漫城部分站点测试时返回空分类，次元城插件地址返回HTTP 401。"
+  "notes": "LionTV 0.6.2\n\n- 按设计稿重构影视和短剧首页、列表、详情、播放、历史及收藏界面，使用导出的SVG及指定字体，适配720p、1080p和4K。\n- 修复影视默认站点空页、重复请求参数与分类聚合，普通影视和动漫独立选源；增加已审计网页结构的XBPQ适配。\n- 新增短剧推荐、列表、分集播放、续播、收藏与历史，新增短剧1和短剧3源；大量卡片和分集按需创建，减少内存占用。\n- 完善后台取消网络请求、切换栏目后的加载恢复与图片生命周期；补齐升级启动阶段记录，清理过期安装状态。\n- 评论与弹幕只回显来源实际提供的数据；当前未接通已核验的线上评论/弹幕接口，缺少数据时显示空态。\n\n沿用原签名，Android 8.0及以上32位/64位通用。已在Android 9模拟器验证真实36集电视剧与40集短剧播放，以及0.6.1覆盖升级后首次启动和数据保留。特定电视的升级首退尚未复现，仍需复测。\n\n部分上游站点或媒体当前返回404/402，不能保证所有来源可用；XBPQ兼容限于已审计结构，不代表兼容所有插件。安装需电视系统允许并由用户确认。"
 }
