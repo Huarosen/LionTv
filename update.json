@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "packageName": "tv.lion",
-  "versionName": "0.6.5",
-  "versionCode": 20,
+  "versionName": "0.6.6",
+  "versionCode": 21,
   "minSdk": 26,
   "apk": {
-    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.5/LionTV-0.6.5-universal.apk",
-    "size": 22815555,
-    "sha256": "52ce36e12ea0f0c7d691281b6ab38fdbe4d264c1579c3491d673de95e0bbc1e8",
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.6/LionTV-0.6.6-universal.apk",
+    "size": 22815967,
+    "sha256": "dd777e6f189997608f58e8394427c30b7bce967c965c75bdc5308ae87daccc46",
     "mirrors": [
-      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.5/LionTV-0.6.5-universal.apk"
+      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.6/LionTV-0.6.6-universal.apk"
     ]
   },
-  "notes": "LionTV 0.6.5\n\n- 设置新增板块数据源：电视、影视、动漫、短剧独立选择饭太硬、肥猫、分享者或王二小，默认均为饭太硬；分别支持编辑黑名单。\n- 电视改为先读取直播元信息，再精确匹配内置频道库；频道名、分类、顺序和台标使用内置配置，未匹配频道不展示。\n- 内置 channelLib 3.2.0 的787条频道配置与442张台标；首页只显示一级分类，播放页支持省份、城市多级选择。\n- 优先展示缓存并后台更新；手动刷新、换源或修改过滤规则后清空对应缓存与页面再加载。\n- 一级探测优先完成可见频道，再持续探测其他频道并保存结果；切换板块或应用退到后台时停止，回来后继续。仅进入播放页才进行首帧检测，并优先尝试一级探测较快的线路，失败自动切换备用线路。\n- 统一可变字体，台标与图标采用无损WebP，移除旧台标、旧跨源扫描及不再使用的源管理代码，减小安装包。\n- 修复首页最近观看向下导航阻断；完善影视和短剧详情页选集聚焦、播放选中态与焦点移开后的样式恢复；修复短剧分类结果被通用首页覆盖。"
+  "notes": "LionTV 0.6.6\n\n- 按最新电视栏目设计更新首页卡片：横向台标与信息列、节目及线路信息、圆角、渐变、聚焦边框和留白；同步最近观看卡片尺寸。\n- 修复频道滚动时台标反复消失，保留离屏缓存并合并重复解码。\n- 修复频道最后一行继续按下时焦点左右跳动，以及播放频道抽屉的方向键焦点回抢。\n- 将大直播源的探测调度、哈希与健康统计移至后台，分批恢复缓存并限制快速失败请求，减少页面卡顿。\n- 区分直播列表读取失败、黑名单过滤和频道库未匹配，保留上游HTTP错误原因。\n- 增加直播元数据超时后台重试，避免较慢的子列表整张遗漏；验证湖南卫视精确匹配及两条线路归入同一频道。"
 }
