@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "packageName": "tv.lion",
-  "versionName": "0.6.6",
-  "versionCode": 21,
+  "versionName": "0.6.7",
+  "versionCode": 22,
   "minSdk": 26,
   "apk": {
-    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.6/LionTV-0.6.6-universal.apk",
-    "size": 22815967,
-    "sha256": "dd777e6f189997608f58e8394427c30b7bce967c965c75bdc5308ae87daccc46",
+    "url": "https://github.com/Huarosen/LionTv/releases/download/v0.6.7/LionTV-0.6.7-universal.apk",
+    "size": 22827203,
+    "sha256": "4af55d0172305ec3e52c671ef4f5f81fd1889b276c72bad515c54b8865274761",
     "mirrors": [
-      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.6/LionTV-0.6.6-universal.apk"
+      "https://gitee.com/huarosen/lion-tv/releases/download/v0.6.7/LionTV-0.6.7-universal.apk"
     ]
   },
-  "notes": "LionTV 0.6.6\n\n- 按最新电视栏目设计更新首页卡片：横向台标与信息列、节目及线路信息、圆角、渐变、聚焦边框和留白；同步最近观看卡片尺寸。\n- 修复频道滚动时台标反复消失，保留离屏缓存并合并重复解码。\n- 修复频道最后一行继续按下时焦点左右跳动，以及播放频道抽屉的方向键焦点回抢。\n- 将大直播源的探测调度、哈希与健康统计移至后台，分批恢复缓存并限制快速失败请求，减少页面卡顿。\n- 区分直播列表读取失败、黑名单过滤和频道库未匹配，保留上游HTTP错误原因。\n- 增加直播元数据超时后台重试，避免较慢的子列表整张遗漏；验证湖南卫视精确匹配及两条线路归入同一频道。"
+  "notes": "LionTV 0.6.7\n\n- 修复播放设置、选集、清晰度、倍速及线路弹窗的文字裁切，调整分组行高与滚动留白；播放设置根据内容自适应高度，聚焦末项时完整显示。\n- 移除播放弹窗选中按钮的勾号，以底色表示选中、边框表示聚焦，保留确认选择与返回关闭操作。\n- 修复电视分类切换时频道卡片尺寸闪动，补齐 CCTV-7 本地台标；超长节目名在聚焦时滚动，离焦恢复省略。\n- 优化播放页频道列表：一级分类、地方二级分类与频道分列展示；电视首页返回键按频道、分类、最近观看、顶部导航依次回退。\n- 补充直播源声明的节目单接口回退、频道名称查询与缓存重试，统一节目日期和时段处理。\n- 影视加载改为不遮挡页面的轻量提示，完善筛选按钮四态及文字居中；封面按可见区域优先加载，限制并发、复用缓存并取消过期请求。\n- 过滤数据源脚本弹窗和支持系统版本中的非应用原生提示。"
 }
